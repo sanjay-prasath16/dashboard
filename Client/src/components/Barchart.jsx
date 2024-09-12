@@ -90,7 +90,7 @@ const Barchart = (props) => {
     }, [props.height, user]);
 
     return (
-        <div ref={chartRef} className="mt-20" />
+        <div ref={chartRef} />
     );
 }
 

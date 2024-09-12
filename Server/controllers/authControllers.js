@@ -1,5 +1,6 @@
 const Register = require('../Models/Register');
 const Enrollment = require('../Models/EnrollmentRecord');
+const Attendance = require('../Models/Attendance');
 const { hashPassword, comparePassword } = require('../helpers/passwordEncrypt');
 const jwt = require('jsonwebtoken');
 const express = require('express');
@@ -146,11 +147,15 @@ const userDetails = (req, res) => {
                 
                 if (registerDetails) {
                     const enrollmentDetails = await Enrollment.find();
+                    const attendanceDetails = await Attendance.find();
 
                     const userData = {
                         registerDetails,
-                        enrollmentDetails
+                        enrollmentDetails,
+                        attendanceDetails
                     };
+
+                    console.log(attendanceDetails);
 
                     res.json({ userData });
                 } else {
