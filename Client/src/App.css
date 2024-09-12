@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
-    .tooltip-title {
-        @layer font-bold;
-    }
-} */
+@layer components {
+    .d3-tooltip {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }    
+}
