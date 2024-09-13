@@ -86,11 +86,11 @@ const Barchart = (props) => {
             })
             .on('mousemove', (event, d) => {
                 const barTop = y(d.count);
-                const tooltipHeight = 40;
+                const tooltipHeight = 220;
 
                 const containerRect = chartRef.current.getBoundingClientRect();
 
-                tooltip.style('top', (barTop + margin.top + containerRect.top - tooltipHeight - 20) + 'px') 
+                tooltip.style('top', (barTop + margin.top + containerRect.top + tooltipHeight + 30) + 'px') 
                        .style('left', (x(d.enroll) + margin.left + containerRect.left + (x.bandwidth() / 2) - 30) + 'px');
             })            
             .on('mouseout', (event) => {

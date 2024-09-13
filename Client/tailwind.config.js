@@ -27,6 +27,7 @@ export default {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
+      res: '1316px',
       nav: '900px'
     },
   },

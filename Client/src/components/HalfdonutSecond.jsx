@@ -31,7 +31,6 @@ const Halfdonut = (props) => {
             .attr("transform", `translate(${width / 2}, ${height / 2 + 20})`);
 
         const caregiverDetails = user.caregiverDetails[0];
-        console.log(user.caregiverDetails);
         const registered = parseInt(caregiverDetails.Registered) || 0;
         const active = parseInt(caregiverDetails.Active) || 0;
         const inactive = parseInt(caregiverDetails.Inactive) || 0;
