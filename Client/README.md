@@ -20,4 +20,4 @@ npm run dev
 
 ctrl + click the link which was in the terminal of visual studio code
 
-Happy Coding!!!
+Happy Coding!!
