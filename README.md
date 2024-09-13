@@ -10,3 +10,9 @@ cd Client
 2. Install dependencies:
 
 npm install
+
+Contact Details:
+
+Name                   : Sanjay Prasath
+Phone/Watshapp Number  : +91 6381364449
+Linkedin               : https://www.linkedin.com/in/sanjay-prasath-s/
