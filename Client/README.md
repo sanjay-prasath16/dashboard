@@ -1,5 +1,3 @@
-Dashboard Visualization Project
-
 Technologies Used (Frontend):
 
 -> React.js: A JavaScript library for building the user interface of the dashboard.
@@ -9,23 +7,14 @@ Technologies Used (Frontend):
 
 Installation:
 
-Follow the below steps to run the code in your local machine
+Follow the below steps to run the client code in your local machine
 
-1. Clone the repository:
-
-git clone https://github.com/sanjay-prasath16/dashboard.git
-cd Client
-
-2. Install dependencies:
-
-npm install
-
-3. Set up environment variables:
+1. Set up environment variables:
 
 MONGO_URI=your-mongodb-connection-string
 JWT_SECRET=your-jwt-secret
 
-4. Start the client:
+2. Start the client:
 
 npm run dev
 
